@@ -1,0 +1,23 @@
+FaceAttend — End User License Agreement
+Copyright (c) 2026 Shashwat Mishra. All rights reserved.
+
+1. The FaceAttend installers and programs in this repository ("the Software") are
+   proprietary. They are provided so that you can download and install the Software.
+
+2. Using the Software requires a valid license key issued by the copyright holder for
+   the specific computer on which it is used. One key activates one computer.
+
+3. You may not copy the Software for redistribution, sell, rent or sublicense it,
+   reverse engineer, decompile or disassemble it, or remove or bypass its license or
+   security checks, except where applicable law expressly permits this.
+
+4. Attendance records, face templates and other data you create stay on your computer
+   and remain yours. You are responsible for obtaining any consent required by law
+   from the people whose faces are enrolled.
+
+5. The Software is provided "as is", without warranty of any kind. Face recognition and
+   anti-spoof checks can make mistakes. To the maximum extent permitted by law, the
+   copyright holder is not liable for any damages arising from its use.
+
+The bundled face-detection, face-recognition and anti-spoof models are third-party
+components distributed under their own licenses (included inside the installation).
