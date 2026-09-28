@@ -49,7 +49,17 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
 3. **Create the owner account** and save the one-time **recovery code**.
 4. **Add employees** and **enrol faces** (one clear photo each, in good light).
 5. On the dashboard press **Check In** or **Check Out** — people look at the camera and blink.
+   A plugged-in USB camera is used automatically.
 6. See **Attendance Report** for monthly per-employee figures, or **Export** any date range to Excel.
+
+## Updates
+
+From v1.1.4 on, FaceAttend tells you when a new version is out (**Update available** in the sidebar,
+or Settings → **Check for updates**). On Windows, **Update now** downloads the installer, verifies the
+developer's signature and SHA-256, installs it and restarts — attendance data, employees and the license
+are kept. On Linux, download the new package from the latest release.
+
+<img src="screenshots/07-settings.jpg" width="75%" alt="Settings: updates, camera and feedback" />
 
 <p>
   <img src="screenshots/05-reports.jpg" width="49%" alt="Monthly reports" />
@@ -62,7 +72,10 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
 - Liveness: requires a blink or small head movement before recording
 - Passive anti-spoof model that rejects printed photos and phone/monitor screens
 - Check-in, check-out and early exit (SL), with duplicate protection
-- Live dashboard, monthly reports, daily Excel workbook and date-range export
+- Live dashboard that refreshes on its own, monthly reports, daily Excel workbook and date-range export
+- Uses a USB / external camera automatically (built-in camera if none); pin one in Settings
+- Sound feedback on buttons and a chime on check-in/out; phones and tablets also vibrate
+- Signed one-click updates (Windows)
 - Owner password for management pages; machine-locked license
 - Records in the computer's own time zone (daylight saving included)
 - 100% local: SQLite database and files in `%LOCALAPPDATA%\FaceAttend` (Windows) or
