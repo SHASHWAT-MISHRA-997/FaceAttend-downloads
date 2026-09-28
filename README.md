@@ -16,7 +16,7 @@ monthly reports and Excel export — running entirely on your own computer.
 
 </div>
 
-![FaceAttend live dashboard](screenshots/03-dashboard.png)
+![FaceAttend live dashboard](screenshots/03-dashboard.jpg)
 
 > Screenshots show demo data.
 
@@ -41,16 +41,19 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
 
 1. **Install** for your operating system (table above). FaceAttend opens in your browser at
    `http://127.0.0.1:3000` — it is reachable only from that computer.
-2. **Activate.** The first screen shows this computer's **Machine ID**. Request a license key on the
-   [website](https://faceattend-ai.netlify.app/#license) and paste the key you receive.
+2. **Activate.** The first screen shows this computer's **Machine ID**. Press **Request license key** —
+   the [website form](https://faceattend-ai.netlify.app/#license) opens with the ID already filled in —
+   and paste the key you receive.
+
+   <img src="screenshots/01-activation.jpg" width="60%" alt="Activation screen" />
 3. **Create the owner account** and save the one-time **recovery code**.
 4. **Add employees** and **enrol faces** (one clear photo each, in good light).
 5. On the dashboard press **Check In** or **Check Out** — people look at the camera and blink.
 6. See **Attendance Report** for monthly per-employee figures, or **Export** any date range to Excel.
 
 <p>
-  <img src="screenshots/05-reports.png" width="49%" alt="Monthly reports" />
-  <img src="screenshots/04-employees.png" width="49%" alt="Employee directory" />
+  <img src="screenshots/05-reports.jpg" width="49%" alt="Monthly reports" />
+  <img src="screenshots/04-employees.jpg" width="49%" alt="Employee directory" />
 </p>
 
 ## What it does
@@ -80,7 +83,7 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
   presentation-attack-detection system and may not stop every mask.
 - Attendance times are recorded in Indian Standard Time (IST).
 - On Linux the dashboard, license and records are tested; webcam capture on Linux was not tested on
-  physical Linux hardware for v1.1.0.
+  physical Linux hardware for v1.1.1.
 
 ## About
 
