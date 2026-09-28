@@ -64,6 +64,7 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
 - Check-in, check-out and early exit (SL), with duplicate protection
 - Live dashboard, monthly reports, daily Excel workbook and date-range export
 - Owner password for management pages; machine-locked license
+- Records in the computer's own time zone (daylight saving included)
 - 100% local: SQLite database and files in `%LOCALAPPDATA%\FaceAttend` (Windows) or
   `~/.local/share/FaceAttend` (Linux). No cloud, no account.
 
@@ -76,14 +77,6 @@ Windows: `Get-FileHash .\FaceAttend-Setup.exe -Algorithm SHA256` · Linux: `sha2
 | Disk | ≈ 600 MB | ≈ 500 MB |
 | Camera | Any USB or built-in webcam | V4L2 webcam |
 
-## Honest limits
-
-- Face recognition can make mistakes; enrol in good light.
-- The anti-spoof model blocked common photo/screen attacks in testing but is not a certified
-  presentation-attack-detection system and may not stop every mask.
-- Attendance times are recorded in Indian Standard Time (IST).
-- On Linux the dashboard, license and records are tested; webcam capture on Linux was not tested on
-  physical Linux hardware for v1.1.1.
 
 ## About
 
