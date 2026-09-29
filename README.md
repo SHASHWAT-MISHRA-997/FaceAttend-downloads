@@ -59,7 +59,7 @@ or Settings → **Check for updates**). On Windows, **Update now** downloads the
 developer's signature and SHA-256, installs it and restarts — attendance data, employees and the license
 are kept. On Linux, download the new package from the latest release.
 
-<img src="screenshots/07-settings.jpg" width="75%" alt="Settings: updates, camera and feedback" />
+<img src="screenshots/09-updates.jpg" width="75%" alt="Update available dialog" />
 
 <p>
   <img src="screenshots/05-reports.jpg" width="49%" alt="Monthly reports" />
@@ -72,7 +72,11 @@ are kept. On Linux, download the new package from the latest release.
 - Liveness: requires a blink or small head movement before recording
 - Passive anti-spoof model that rejects printed photos and phone/monitor screens
 - Check-in, check-out and early exit (SL), with duplicate protection
-- Live dashboard that refreshes on its own, monthly reports, daily Excel workbook and date-range export
+- Live dashboard that refreshes on its own and an Attendance Report with every day's detail
+- Payroll-ready Excel: summary, employee totals, every working day (absences included) and the full punch log,
+  with late minutes, worked hours and overtime; protected against edits
+- Daily Excel backups are signed, so edited rows are refused when restoring
+- Light and dark mode
 - Uses a USB / external camera automatically (built-in camera if none); pin one in Settings
 - Sound feedback on buttons and a chime on check-in/out; phones and tablets also vibrate
 - Signed one-click updates (Windows)
